@@ -42,7 +42,7 @@ function deleteItem(id) {
         }
     })
         .then(() => getItems())
-        .catch(error => console.error('Unable to update item.', error));
+        .catch(error => console.error('Unable to delete item.', error));
 }
 
 function displayEditForm(id) {
